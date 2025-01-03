@@ -1,0 +1,13 @@
+numpy
+pandas
+flask
+pymongo
+geopy
+python-dotenv
+flask-cors
+roboflow
+opencv-python
+nltk
+langchain
+langchain_ollama
+folium

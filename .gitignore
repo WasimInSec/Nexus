@@ -1,0 +1,5 @@
+node_modules
+.venv
+.env
+Social_Media_App\backend\.env
+Social_Media_App\.env

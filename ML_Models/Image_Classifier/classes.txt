@@ -1,0 +1,8 @@
+Powder
+Pills
+Tablets
+Liquid
+Smoking
+Suspicious Container
+Syringe
+Cash

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, 
+      #ffffff 0%,
+      #fdf4ff 25%,
+      #fae8ff 50%,
+      #f5d0fe 75%,
+      #ffffff 100%
+    );
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #f8f9fa;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  border-radius: 12px;
+  box-shadow: none;
+  border: none;
+  overflow: hidden;
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: rgb(31, 41, 55);
+}
+
+.custom-div-icon {
+  background: none;
+  border: none;
+}
+
+.leaflet-popup {
+  z-index: 1000 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  z-index: 1001 !important;
+}
+
+.leaflet-popup-tip-container {
+  z-index: 1001 !important;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background: transparent !important;
+  color: white !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-bottom: none !important;
+}

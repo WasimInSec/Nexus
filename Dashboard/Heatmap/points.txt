@@ -1,0 +1,20 @@
+remember to add columns 'latitude' and 'longitude' to the data file
+
+import React from "react";
+
+const Heatmap = () => {
+  return (
+    <div>
+      <h1>Sales Heatmap</h1>
+      <iframe
+        title="Sales Heatmap"
+        src="http://127.0.0.1:5000/heatmap"  // URL served by Flask
+        width="100%"
+        height="600px"
+        style={{ border: "none" }}
+      ></iframe>
+    </div>
+  );
+};
+
+export default Heatmap;
